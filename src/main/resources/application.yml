@@ -1,0 +1,21 @@
+app:
+  name: webflux
+  description: "webflux"
+  character-Encoding: utf8
+  use-unicode: true
+  rate-limit: 10
+server:
+  port: 8080
+  error:
+    whitelabel:
+      enabled: false
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+spring:
+  mongodb:
+    embedded:
+      version: latest
