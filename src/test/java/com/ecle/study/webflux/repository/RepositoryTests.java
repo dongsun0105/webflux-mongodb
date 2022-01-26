@@ -83,7 +83,7 @@ public class RepositoryTests {
                     assertThat(item.getName()).isEqualTo("swt");
                     assertThat(item.getDescription()).isEqualTo("description of item6");
                     assertThat(item.getPrice()).isEqualTo(100.00);
-                    
+
                     return true;
                 })
                 .verifyComplete();
